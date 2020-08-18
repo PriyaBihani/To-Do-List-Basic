@@ -1,0 +1,123 @@
+
+/* 1.multiple check deltete and add
+2.Don't add empty 
+3.check box round
+4.alert messages of like not checked and empty.
+5.clean input box automatically
+6.clean the fucking templates */
+
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania|Raleway&display=swap');
+*{margin: 0px;
+  padding :0px;}
+.heading{
+  margin:0px;
+  padding: 30px;
+  background-image: url("  https://images.unsplash.com/photo-1533749047139-189de3cf06d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80" );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.7);
+  background-blend-mode : multiply;
+}
+.header-text{
+  padding: 0px;
+  color: #E85757;
+  text-align: center;
+  font-family: Metal Mania;
+  font-size: 2.5em;
+}
+.todoitem{
+  border : 0;
+  border-bottom : 0.5px solid;
+  font-family: raleway;
+  padding : 5px;
+  margin: 30px;
+  margin-left:20%;
+  
+}
+.todoitem:focus{
+    border-bottom: 0.5px solid #E85757;
+    outline : none;
+  
+  }
+.todoitem:focus::placeholder {
+  opacity : 0.5;
+}
+.buttonStyle{
+  border: none;
+  background-color: #E85757;
+  color: white;
+  padding:5px;
+  font-family: raleway;
+  border-radius: 5%;
+  outline: none;
+  cursor: pointer;
+}
+.sub-heading{
+  letter-spacing: 1px;
+  border-bottom : 1px solid black;
+  padding : 5px;
+  }
+.individualTask{
+  background-color: rgba(240,240,240,1);
+  padding: 0.8em;
+  margin: 0px;
+  border-bottom: 0.5px solid rgba(120,120,120,1);
+  font-family: Raleway;
+  cursor : pointer;
+}
+.styleToList{
+  color: rgba(60,60,60,1);
+  padding-left:5px;
+  font-family: Raleway;
+  cursor: pointer;
+  }
+
+  .checked{
+    border-radius: 50%;
+    cursor: pointer;
+}
+  
+.btn{
+    margin-left: 60%;
+    margin-top: 10px;
+    outline: none;
+    cursor:pointer;
+  }
+.flexbox-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+} 
+.inputToPending{
+    margin:.5em 15% 2em 35%;
+}
+.flexbox-item{
+    width: 35%;
+    height:auto ;
+    justify-content: center;
+}
+#page-container{
+  position:relative;
+  min-height:100%;
+}
+#content-wrap{
+  padding-bottom: 2.5rem;
+}
+#footer{
+  position:relative;
+  bottom:0;
+  width: 100%;
+  height:4.5rem;
+  background-color:rgba(22, 21, 21, 0.877);
+  color: #E85757;
+  font-family: Metal Mania;
+  text-align: center;
+  padding-top:10px;
+  font-size: 2.5em;
+  background-image:
+   url('https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80');
+ background-blend-mode: multiply;
+ margin-bottom : 0px;
+}
